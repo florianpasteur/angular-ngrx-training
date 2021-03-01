@@ -1,0 +1,25 @@
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {MatIconModule} from '@angular/material/icon';
+import {MatBadgeModule} from '@angular/material/badge';
+import {CartComponent} from './cart/cart.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatListModule} from '@angular/material/list';
+
+@NgModule({
+  declarations: [
+    CartComponent,
+  ],
+  imports: [
+    BrowserModule,
+    MatIconModule,
+    MatBadgeModule,
+    MatCardModule,
+    MatListModule,
+  ],
+  exports: [
+    CartComponent,
+  ],
+})
+export class CartModule {
+}

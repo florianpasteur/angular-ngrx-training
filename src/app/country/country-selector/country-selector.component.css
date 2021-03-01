@@ -1,0 +1,10 @@
+.country-flag {
+  font-size: 2em;
+  padding: 5px;
+  cursor: pointer;
+}
+
+
+.active {
+  border-bottom: 2px solid red;
+}
