@@ -1,0 +1,13 @@
+<p>
+ Counter: {{ counter$ | async }}
+</p>
+<p>
+  Other Counter: {{ counter$ | async }}
+</p>
+
+
+<button (click)="add()">Add</button>
+<button (click)="substract()">Substract</button>
+<button (click)="reset()">reset</button>
+<button (click)="setTo10()">Set to 10</button>
+<button (click)="setTo20()">Set to 20</button>
